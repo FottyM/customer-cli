@@ -1,0 +1,17 @@
+{
+  "name": "customer-cli",
+  "version": "1.0.0",
+  "description": "An Awesome cli app with nodejs ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fortunat Mutunda",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "inquirer": "^4.0.0",
+    "mongoose": "^4.13.2",
+    "pluralize": "^7.0.0"
+  }
+}
