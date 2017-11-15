@@ -4,12 +4,12 @@ var pluralize = require('pluralize')
 mongoose.Promise = global.Promise;
 
 // connect to db
-const db = mongoose.connect('mongodb://fotty:password@ds261745.mlab.com:61745/customer-cli');
-mongoose.connection.once('open', function () {
-    console.log('Connected to DB')
-}).on('error', function (error) {
-    console.log(error);
-});
+const db = mongoose.connect('mongodb://fotty:password@ds261745.mlab.com:61745/customer-cli', { useMongoClient: true });
+// mongoose.connection.once('open', function () {
+//     console.log('Connected to DB')
+// }).on('error', function (error) {
+//     console.log(error);
+// });
 
 // Import model
 const Customer = require('./models/customer');
