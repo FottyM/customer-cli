@@ -13,7 +13,7 @@
   "dependencies": {
     "commander": "^2.11.0",
     "inquirer": "^4.0.0",
-    "mongoose": "^4.13.2",
+    "mongoose": "^5.7.5",
     "pluralize": "^7.0.0"
   },
   "devDependencies": {
